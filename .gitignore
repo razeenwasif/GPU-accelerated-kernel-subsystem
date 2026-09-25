@@ -1,0 +1,81 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker map files
+*.map
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (dynamic libraries)
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+bin/
+
+# Build systems
+build/
+dist/
+target/
+.cmake/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+!Makefile.template
+*.make
+*.ninja
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# CUDA
+*.ptx
+*.cubin
+*.fatbin
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Kernel development
+modules.order
+Module.symvers
+*.mod
+*.mod.c
+.tmp_versions/
